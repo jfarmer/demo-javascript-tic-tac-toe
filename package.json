@@ -1,0 +1,38 @@
+{
+  "name": "examples-javascript",
+  "version": "0.1.0",
+  "description": "Examples of common JavaScript patterns",
+  "main": "index.js",
+  "dependencies": {
+    "play-sound": "^1.1.3",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "jsdoc": "^3.6.3"
+  },
+  "scripts": {
+    "docs": "npx jsdoc -c ./.jsdoc.conf.json",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "npx eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfarmer/examples-javascript.git"
+  },
+  "keywords": [
+    "javascript",
+    "exercises"
+  ],
+  "author": "Jesse Farmer <jesse@20bits.com>",
+  "license": "CC-BY-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/jfarmer/examples-javascript/issues"
+  },
+  "homepage": "https://github.com/jfarmer/examples-javascript#readme"
+}
