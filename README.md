@@ -5,6 +5,8 @@
 1. Run `npm install` to install the required libraries
 1. Run `node ttt.js` to play!
 
+Here are the commands you can run, one at a time:
+
 ```console
 git clone https://github.com/jfarmer/demo-javascript-tic-tac-toe.git
 cd demo-javascript-tic-tac-toe
