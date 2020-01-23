@@ -49,6 +49,8 @@ function gameCreate(players) {
 
 /**
  * Given a game, return the current player based on the turn number.
+ *
+ * The turn count is incremented by gameMakeMove.
  */
 function gameCurrentPlayer(game) {
   /*
