@@ -277,9 +277,13 @@ function boardHasWinnerInColumn(board, player, col) {
  * Given a row, returns true if the player has won in
  * that row.
  */
+
 function boardHasWinnerInRow(board, player, row) {
   let symbol = player.symbol;
 
+  // board[2][0] === 'X' (ok, look at next one)
+  // board[2][1] === ' ' (ok, X didn't win this round)
+  // board[2][2]
   for (let j = 0; j < 3; j += 1) {
     if (board[row][j] !== symbol) {
       return false;
