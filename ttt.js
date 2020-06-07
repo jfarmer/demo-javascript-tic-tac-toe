@@ -311,7 +311,7 @@ while (!gameIsDone(game)) {
   let move = playerGetMove(currentPlayer, game.board);
 
   gameMakeMove(game, currentPlayer, move);
-};
+}
 
 // The game is done. Either someone won or it's a draw.
 // Clear + print the final board.
