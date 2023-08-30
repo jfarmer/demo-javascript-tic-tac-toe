@@ -4,7 +4,7 @@
   "description": "Examples of common JavaScript patterns",
   "main": "index.js",
   "dependencies": {
-    "play-sound": "^1.1.5",
+    "play-sound": "^1.1.6",
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
